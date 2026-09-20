@@ -60,7 +60,6 @@ jobs:
         with:
           path: _site
           retention-days: 1
-          include-hidden-files: true
 
       - name: Deploy to GitHub Pages
         id: deployment
